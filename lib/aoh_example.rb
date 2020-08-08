@@ -50,7 +50,7 @@ def aoh_update(aoh, row, key, new_value)
     { :name =>  "Kate Gompert", :occupation => "None" },
     { :name =>  "Bruce Green", :occupation => "Fan of Mildred" }
   ]
-  characters[1][:name] = "Joelle Van Dyne (PGOAT)"
+  characters[1][:name] = new_value
 
 characters
   # Update the AoH data at row and key to have the value of new_value
